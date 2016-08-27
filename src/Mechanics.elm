@@ -1,4 +1,4 @@
-module Mechanics (State, Acceleration, state1, state2, state3, state, aboutEqual, dimension, time, coordinate, velocity, evolve, acceleration) where
+module Mechanics exposing (State, Acceleration, state1, state2, state3, state, aboutEqual, dimension, time, coordinate, velocity, evolve, acceleration)
 
 {-|
 # Building states

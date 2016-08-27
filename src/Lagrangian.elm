@@ -1,4 +1,4 @@
-module Lagrangian (solve, toAcceleration) where
+module Lagrangian exposing (solve, toAcceleration)
 
 {-|
 We can compute the behavior of a system if we start with special equation called

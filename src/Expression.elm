@@ -1,4 +1,4 @@
-module Expression (num, time, coordinate, velocity, negative, plus, minus, times, over, sum, product, square, inverse, expt, sine, cosine, ln, dimension, getFloat, print, partial, eval, Expression) where
+module Expression exposing (num, time, coordinate, velocity, negative, plus, minus, times, over, sum, product, square, inverse, expt, sine, cosine, ln, dimension, getFloat, print, partial, eval, Expression)
 
 {-| Create symbolic mathematic expressions. For use with the `Lagrangian` module. The variable names are designed to correspond with the fields in `Mechanics.State`.
 
